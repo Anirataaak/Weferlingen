@@ -8,7 +8,7 @@
 *        illegal = Illegal Item
 *        edible = Item Edible (-1 = Disabled, other values = added value)
 *        drinkable = Item Drinkable (-1 = Disabled, other values = added value)
-*        icon = Item Icon
+*        icon = "";
 *        processedItem = Processed Item
 */
 class VirtualItems {
@@ -17,158 +17,158 @@ class VirtualItems {
     //Misc
     class pickaxe {
         variable = "pickaxe";
-        displayName = "STR_Item_Pickaxe";
+        displayName = "Spitzhacke";
         weight = 2;
         buyPrice = 750;
         sellPrice = 350;
         illegal = false;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_pickaxe.paa";
+        icon = "";
     };
 
     class defibrillator {
         variable = "defibrillator";
-        displayName = "STR_Item_Defibrillator";
+        displayName = "Defibrillator";
         weight = 4;
         buyPrice = 900;
         sellPrice = 450;
         illegal = false;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_defibrillator.paa";
+        icon = "";
     };
 
     class toolkit {
         variable = "toolkit";
-        displayName = "STR_Item_Toolkit";
+        displayName = "Toolkit";
         weight = 4;
         buyPrice = 350;
         sellPrice = 100;
         illegal = false;
         edible = -1;
         drinkable = -1;
-        icon = "\a3\weapons_f\items\data\UI\gear_toolkit_ca.paa";
+        icon = "";
     };
 
     class fuelEmpty {
         variable = "fuelEmpty";
-        displayName = "STR_Item_FuelE";
+        displayName = "Leerer Benzinkanister";
         weight = 2;
         buyPrice = -1;
         sellPrice = 10;
         illegal = false;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_fuelEmpty.paa";
+        icon = "";
     };
 
     class fuelFull {
         variable = "fuelFull";
-        displayName = "STR_Item_FuelF";
+        displayName = "Voller Benzinkanister";
         weight = 5;
         buyPrice = 850;
         sellPrice = 500;
         illegal = false;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_fuel.paa";
+        icon = "";
     };
 
     class spikeStrip {
         variable = "spikeStrip";
-        displayName = "STR_Item_SpikeStrip";
+        displayName = "Spikes";
         weight = 15;
         buyPrice = 2500;
         sellPrice = 1200;
         illegal = true;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_spikeStrip.paa";
+        icon = "";
     };
 
     class lockpick {
         variable = "lockpick";
-        displayName = "STR_Item_Lockpick";
+        displayName = "Dietrich";
         weight = 1;
         buyPrice = 150;
         sellPrice = 75;
         illegal = true;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_lockpick.paa";
+        icon = "";
     };
 
     class goldbar {
         variable = "goldBar";
-        displayName = "STR_Item_GoldBar";
+        displayName = "Goldbarren";
         weight = 12;
         buyPrice = -1;
         sellPrice = 95000;
         illegal = true;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_goldBar.paa";
+        icon = "";
     };
 
     class blastingcharge {
         variable = "blastingCharge";
-        displayName = "STR_Item_BCharge";
+        displayName = "Explosivladung";
         weight = 15;
         buyPrice = 35000;
         sellPrice = 10000;
         illegal = true;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_blastingCharge.paa";
+        icon = "";
     };
 
     class boltcutter {
         variable = "boltCutter";
-        displayName = "STR_Item_BCutter";
+        displayName = "Seitenschneider";
         weight = 5;
         buyPrice = 7500;
         sellPrice = 1000;
         illegal = true;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_boltCutter.paa";
+        icon = "";
     };
 
     class defusekit {
         variable = "defuseKit";
-        displayName = "STR_Item_DefuseKit";
+        displayName = "Entschärfungskit";
         weight = 2;
         buyPrice = 2500;
         sellPrice = 2000;
         illegal = true;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_defuseKit.paa";
+        icon = "";
     };
 
     class storagesmall {
         variable = "storageSmall";
-        displayName = "STR_Item_StorageBS";
+        displayName = "Lagerkiste Klein";
         weight = 5;
         buyPrice = 75000;
         sellPrice = 50000;
         illegal = false;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_storageSmall.paa";
+        icon = "";
     };
 
     class storagebig {
         variable = "storageBig";
-        displayName = "STR_Item_StorageBL";
+        displayName = "Lagerkiste Groß";
         weight = 10;
         buyPrice = 150000;
         sellPrice = 125000;
         illegal = false;
         edible = -1;
         drinkable = -1;
-        icon = "icons\ico_storageBig.paa";
+        icon = "";
     };
 
     //Obst
@@ -182,7 +182,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_apple.paa";
+        icon = "";
     };
 
     class peach {
@@ -194,7 +194,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class pea {
@@ -206,7 +206,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class cherry {
@@ -218,7 +218,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class plum {
@@ -230,7 +230,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class apricot {
@@ -242,7 +242,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     // Gemüse
@@ -256,7 +256,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class cabbage {
@@ -268,7 +268,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class tomato {
@@ -280,7 +280,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class bell_pepper {
@@ -292,7 +292,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class strawberry {
@@ -304,7 +304,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class carrot {
@@ -316,7 +316,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class lettuce {
@@ -328,7 +328,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class corn {
@@ -340,7 +340,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     // Nutzpflanze
@@ -354,7 +354,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class cotton {
@@ -366,7 +366,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class sugar_cane {
@@ -378,7 +378,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class wheat {
@@ -390,7 +390,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class hops {
@@ -402,7 +402,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class raps {
@@ -414,7 +414,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     // Natürliche Ressourcen
@@ -428,7 +428,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class crude_oil {
@@ -440,7 +440,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class natural_gas {
@@ -452,7 +452,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class stone {
@@ -464,7 +464,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class wood {
@@ -476,7 +476,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class iron_ore {
@@ -488,7 +488,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class brown_coal {
@@ -500,7 +500,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class sand {
@@ -512,7 +512,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class gravel {
@@ -524,7 +524,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class uranium {
@@ -536,7 +536,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     // Drogen
@@ -550,7 +550,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class coca {
@@ -562,7 +562,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class opium_poppy {
@@ -574,7 +574,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class magic_mushroom {
@@ -586,7 +586,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     //Obsterzeugnisse
@@ -600,7 +600,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class pea_juice {
@@ -612,7 +612,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class cherry_juice {
@@ -624,7 +624,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class plum_juice {
@@ -636,7 +636,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class peach_icetea {
@@ -648,7 +648,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class apricot_joghurt {
@@ -660,7 +660,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     //Gemüseerzeugnisse
@@ -674,7 +674,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class ready_made_salat {
@@ -686,7 +686,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class animal_feed {
@@ -698,7 +698,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class strawberry_milk {
@@ -710,7 +710,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class ketchup {
@@ -722,7 +722,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class cabbage_salad {
@@ -734,7 +734,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class mashed_potatoes {
@@ -746,7 +746,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     //Nutzpflanzerzeugnisse
@@ -760,7 +760,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class cloth {
@@ -772,7 +772,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class sugar {
@@ -784,7 +784,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class flour {
@@ -796,7 +796,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class beer {
@@ -808,7 +808,7 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 
     class raps_oil {
@@ -820,6 +820,6 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         drinkable = -1;
-        icon = "icons\ico_peach.paa";
+        icon = "";
     };
 };
